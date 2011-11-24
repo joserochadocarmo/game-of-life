@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class HomePageController {
-	// FIXME: do something nicer for the home page pqp né
+	// FIXME: do something nicer for the home page pqp né, estuda neguin
     @RequestMapping("/")
     public ModelAndView index() {
         return new ModelAndView("home");
