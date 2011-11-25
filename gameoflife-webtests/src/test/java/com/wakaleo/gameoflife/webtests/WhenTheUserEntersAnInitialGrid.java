@@ -52,8 +52,8 @@ public class WhenTheUserEntersAnInitialGrid {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
         player.starts_simulation();
-        //player.should_see_a_page_containing_text("Next Generation");
-        player.should_see_a_page_containing_text("PQP");
+        player.should_see_a_page_containing_text("Next Generation");
+        //player.should_see_a_page_containing_text("PQP");
     }
 
     @Test
