@@ -22,8 +22,8 @@ public class WhenTheUserEntersAnInitialGrid {
     @ManagedPages(defaultUrl = "http://localhost:9090")
     public Pages pages;
 
-    @Steps
-    PlayerSteps player;
+    //@Steps
+    //PlayerSteps player;
 
 
     final static String[][] EMPTY_GRID
