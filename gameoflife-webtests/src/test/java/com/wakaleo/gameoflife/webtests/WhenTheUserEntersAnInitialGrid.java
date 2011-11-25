@@ -22,8 +22,8 @@ public class WhenTheUserEntersAnInitialGrid {
     @ManagedPages(defaultUrl = "http://localhost:9090")
     public Pages pages;
 
-    //@Steps
-    //PlayerSteps player;
+    @Steps
+    PlayerSteps player;
 
 
     final static String[][] EMPTY_GRID
@@ -52,7 +52,8 @@ public class WhenTheUserEntersAnInitialGrid {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
         player.starts_simulation();
-        player.should_see_a_page_containing_text("Next Generation");
+        //player.should_see_a_page_containing_text("Next Generation");
+        player.should_see_a_page_containing_text("PQP");
     }
 
     @Test
